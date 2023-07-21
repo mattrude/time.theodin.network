@@ -49,7 +49,10 @@ body {
 }
 
 .headerblock {
-    margin-left: 210px;
+    display: inherit;
+    margin-left: 260px;
+    width: 435px;
+    border-right: 1px solid #CCC;
 }
 
 .headerblock a {
@@ -62,7 +65,30 @@ body {
 
 #headerimage {
     float: left;
-    margin: 20px 0px 0px 40px;
+    margin: 20px 0px 0px 90px;
+}
+
+#headerimage-right {
+    float: right;
+    margin: -195px 100px;
+}
+
+#sister-sites {
+    float: right;
+    margin-right: 400px;
+    margin-top: -100px;
+    line-height: 1.2em;
+    font-size: 1.3em;
+}
+
+#sister-sites a {
+    color: #4183c4;
+    font-weight: bold;
+}
+
+#sister-sites a:visited {
+    color: #4183c4;
+    font-weight: bold;
 }
 
 #nav {

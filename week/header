@@ -1,3 +1,9 @@
+<div id='sister-sites'>
+    <b>time01.local</b><br>
+    <a href='http://time02.local'>time02.local</a><br>
+    <a href='http://time03.local'>time03.local</a><br>
+    <a href='http://time04.local'>time04.local</a><br>
+</div>
 <div class='headerblock'>
     <span>Updated twice per day</span>
     <div id="nav">
@@ -6,4 +12,9 @@
         <b>Weekly Stats</b>&nbsp;|&nbsp;
         <a href="/month/">Monthly Stats</a>
     </div>
+</div>
+<div id='headerimage-right'>
+    <a href="https://www.ntpsec.org/">
+        <img src="/ntpsec-logo.png" alt="NTPsec">
+    </a>
 </div>
