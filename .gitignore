@@ -1,0 +1,16 @@
+day/index.html
+day/favicon.ico
+day/*.png
+day/*.svg
+day/*.csv
+week/index.html
+week/favicon.ico
+week/*.png
+week/*.svg
+week/*.csv
+month/index.html
+month/favicon.ico
+month/*.png
+month/*.svg
+month/*.csv
+local-offset.svg

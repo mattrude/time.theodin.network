@@ -1,0 +1,68 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+    "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+	<title>Matt's Time Server</title>
+	<link rel="stylesheet" type="text/css" href="/style.css" />
+	<link rel="icon" href="/favicon.ico" type="image/x-icon" />
+</head>
+<body>
+<div id="content">
+	<div id="primary" class="main">
+		<div id="title">
+			<h1>time.theodin.network <i>&mdash; Network Time Service</i></h1>
+		</div>
+		<p>Welcome to time.theodin.network time service, located in in Saint Paul, Minnesota, USA</p>
+		<h2 id='server-status'>Server Status</h2>
+		<p>These servers should be reliable sources of time for your systems; you may view the system's current status by choosing a graph below, or going to the <a href='http://time.theodin.network/status/'>cluster status page</a>.</p>
+		<p>These servers are running as <a href='http://en.wikipedia.org/wiki/Network_Time_Protocol#Clock_strata'>stratum 1</a> time servers, with a maximum offset of 10ms.</p>
+		<div class="graphs center" id='graphs'>
+			<a href="/day/"><img src='/local-offset.svg' alt='Local Clock Time/Frequency Offsets' width='800px' height='420px' style='margin-bottom:-20px;' /></a>
+		</div>
+		<h2 id='connecting'>Client Configuration</h2>
+		<p>This server is part of the <a href='#ntp-pool'>NTP Pool</a> and is available via the <a href='http://www.pool.ntp.org/zone/@'>pool.ntp.org</a>, <a href='http://www.pool.ntp.org/zone/north-america'>north-america.pool.ntp.org</a>, and <a href='http://www.pool.ntp.org/zone/us'>us.pool.ntp.org</a> pools.</p>
+		<p>If you follow the <a href='#acceptable-use'>acceptable use policy</a>, you may directly configure this server via one of the options described below.</p>
+		<h3 id='direct'>Direct Connection</h3>
+		<p>If you are using <a href='https://www.ntp.org/'>ntp</a>, <a href='https://ntpsec.org'>ntpsec</a> or <a href='https://chrony.tuxfamily.org/'>chrony</a> you may use the following:</p>
+		<pre>server time.theodin.network iburst</pre>
+		<h4>NTS Configuration</h4>
+		<pre>server time.theodin.network nts iburst</pre>
+		<h3 id='ntp-pool'>NTP Pool</h3>
+		<p>The <a href='http://www.pool.ntp.org'>NTP Pool</a> project is a big virtual cluster of time servers providing reliable, easy to use NTP service for millions of clients.</p>
+		<p>The pool is being used by millions or tens of millions of systems around the world. It's the default "time server" for most of the major Linux distributions and many networked appliances.</p>
+		<p>These server are active members of the NTP Pool's list of servers. They are listed in the <a href='http://www.pool.ntp.org/zone/@'>pool.ntp.org</a>, <a href='http://www.pool.ntp.org/zone/north-america'>north-america.pool.ntp.org</a>, and <a href='http://www.pool.ntp.org/zone/us'>us.pool.ntp.org</a> pools. Also, <a href='http://www.pool.ntp.org/user/mattrude'>additional statistics</a> are kept by the NTP Pool system as well.</p>
+		<h2 id='acceptable-use'>Acceptable use policy</h2>
+		<h3>Who may use these servers?</h3>
+		<p>These servers are only intended for use by system administrators configuring NTP clients or Desktop Users configuring their own equipment. They must not be used by equipment manufacturers or systems integrators selling kits preconfigured to use these servers.</p>
+		<ul>
+			<li>Desktops and laptops</li>
+			<li>Your own home router</li>
+			<li>Equipment normally found in a server room, such as servers, enterprise routers (not consumer products), SANs etc.</li>
+		</ul>
+		<h3>How you may use these servers</h3>
+		<ul>
+			<li><code>iburst</code> may be used</li>
+			<li><code>burst</code> may not be used</li>
+			<li><code>minpoll/maxpoll</code> may not be changed below the defaults of 64 seconds and 1024 seconds respectively</li>
+			<li>Clients should honor the <code>KOD</code> message</li>
+			<li>Time Server IP addresses may not be hard-coded in any hardware, firmware, or software without advance explicit written permission from the time server operator</li>
+			<li>Time Server DNS addresses should not be hard-coded in any hardware, firmware, or softrware without advance explicit written permission from the time server operator</li>
+		</ul>
+		<h3>Please note</h3>
+		<ul>
+			<li>I make no guarantee as to the accuracy or availability of these NTP servers.</li>
+			<li>I may choose at any time to restrict access to networks or rate limit or block any network, host, or IP address.</li>
+		</ul>
+	</div>
+	<div id="footer">
+	    <div class="footer-left">
+		<p><a href='https://time.theodin.network'>Home</a> | <a href='/day/'>Status</a> | <a href='/documentation/'>Documentation</a> | <a href='https://github.com/mattrude/time.theodin.network'>Source</a></p>
+	    </div>
+	    <div class="footer-right">
+		<p>Copyright &copy; 2009 &mdash; 2023 by <a href='https://theodin.network'>Matt Rude</a></p>
+	    </div>
+	</div>
+</div>
+</body>
+</html>

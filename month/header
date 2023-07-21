@@ -1,0 +1,9 @@
+<div class='headerblock'>
+    <span>Updated once per day</span>
+    <div id="nav">
+        <a href="/">Home</a>&nbsp;|&nbsp;
+        <a href="/day/">Daily Stats</a>&nbsp;|&nbsp;
+        <a href="/week/">Weekly Stats</a>&nbsp;|&nbsp;
+        <b>Monthly Stats</b>
+    </div>
+</div>

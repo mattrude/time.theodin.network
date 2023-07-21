@@ -1,0 +1,179 @@
+dt {
+    font-weight: bold;
+    margin-left: 20px;
+}
+dd {
+    margin-top: 4px;
+    margin-bottom: 10px;
+}
+table {
+    text-align: right;
+    width: 1300px;
+    border-collapse: collapse;
+}
+thead {
+    font-weight: bold;
+}
+tbody tr {
+    vertical-align: top;
+}
+tbody tr:nth-child(6n+4),
+tbody tr:nth-child(6n+5),
+tbody tr:nth-child(6n+6) {
+    background-color: rgba(0,255,0,0.2);
+}
+.section {
+    color: #000000;
+    text-decoration: none;
+}
+.section .site-title:visited {
+    color: #000000;
+}
+
+
+
+
+
+
+body {
+    color: black;
+    background: #ffffff;
+    font-family: "lucida grande", Calibri, "segoe UI", "lucida sans unicode", "Droid Sans", "DejaVu Sans", "bitstream vera sans", verdana, arial, helvetica, sans-serif;
+    margin: 0;
+    font-size: 1.20em;
+}
+
+#graphid {
+    margin: auto;
+    max-width: 1360px;
+}
+
+.headerblock {
+    margin-left: 210px;
+}
+
+.headerblock a {
+    color: #4183c4;
+}
+
+.headerblock a:visited {
+    color: #4183c4;
+}
+
+#headerimage {
+    float: left;
+    margin: 20px 0px 0px 40px;
+}
+
+#nav {
+    padding-top: 20px;
+}
+
+#content {
+    color: black;
+    background: #ffffff;
+    margin-top: 0.5em;
+    margin-bottom: 0.5em;
+    margin-right: auto;
+    margin-left: auto;
+    padding: 1em;
+    line-height:1.3em;
+    text-align: left;
+    max-width:800px;
+    min-width:740px;
+    position: relative;
+}
+
+#title h1 {
+    text-align: left;
+    margin-bottom: 8px;
+    padding: 2px;
+    padding-top: 10px;
+    border-bottom: 1px solid #CCC;
+}
+
+#title i {
+    color: #A9A9A9;
+    font-size: 0.8em;
+}
+h2 {
+    font-weight: normal;
+    margin-bottom: 8px;
+    padding: 2px;
+    padding-top: 10px;
+    border-bottom: 1px solid #CCC;
+}
+
+a {
+    text-decoration: none;
+}
+
+a,a:visited {
+    background: inherit;
+    font-weight: bold;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+#footer {
+    font-size: 80%;
+    border-top: 1px solid #CCC;
+}
+
+.footer-left {
+    text-align: left;
+    float: left;
+    width: 49%;
+}
+
+.footer-right {
+    display: block;
+    text-align: right;
+    float: right;
+    width: 49%;
+}
+
+img {
+    border-width: 0px;
+}
+
+.center {
+    text-align: center;
+}
+
+.big {
+    font-size: larger;
+}
+
+.small {
+    font-size: small;
+}
+
+pre {
+    font:0.85em Monaco, Consolas, 'Lucida Console', "Droid Sans Mono", "DejaVu Sans Mono", Courier, monospace;
+    width:auto;
+    overflow:auto;
+    background-color:#eee;
+    color:inherit;
+    border:1px solid #999;
+    line-height:1.3em;
+    padding:1.2ex;
+}
+
+
+code {
+    font: 0.97em Monaco, Consolas, 'Lucida Console', "Droid Sans Mono", "DejaVu Sans Mono", Courier, monospace;
+}
+
+fieldset {
+    border: 1px dotted #bedce7;
+    padding: 10px 15px;
+    color: inherit;
+}
+
+
+h1 a {
+    text-decoration: none;
+}
